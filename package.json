@@ -1,0 +1,14 @@
+{
+  "type":"module",
+  "devDependencies": {
+    "cos-nodejs-sdk-v5": "^2.15.4",
+    "dotenv": "^17.4.2",
+    "mime": "^4.1.0",
+    "vitepress": "2.0.0-alpha.17"
+  },
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs"
+  }
+}
