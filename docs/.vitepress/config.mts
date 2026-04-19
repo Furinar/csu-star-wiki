@@ -21,17 +21,28 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
-      { text: '入学指南', link: '/compass' },
-      { text: '专业指北', link: '/major' }
+      { text: '入坑指南', link: '/compass/',activeMatch:'/compass/' },
+      { text: '专业指北', link: '/major/',activeMatch: '/major/' },
+      {text:'CSU Star',link:'https://csustar.wiki/home'}
     ],
 
     sidebar: {
       '/compass/': [
         {
-          text: '入学指南',
-          collapsed: false,
+          text: '入坑指南',
           items: [
-            { text: 'ysnb', link: '/compass/' },
+            { text: '简介', link: '/compass/' },
+            {text:'入学基础须知篇',link: '/compass/%E5%85%A5%E5%AD%A6%E5%9F%BA%E7%A1%80%E9%A1%BB%E7%9F%A5%E7%AF%87'},
+            {text:'社团篇',link:'/compass/%E7%A4%BE%E5%9B%A2%E7%AF%87'},
+            {text:'摸鱼篇',link:'/compass/%E6%91%B8%E9%B1%BC%E7%AF%87'},
+            {text:'奋斗篇',link:'/compass/%E5%A5%8B%E6%96%97%E7%AF%87'},
+            {text:'绩点篇',link:'/compass/%E7%BB%A9%E7%82%B9%E7%AF%87'},
+            {text:'竞赛篇',link:'/compass/%E7%AB%9E%E8%B5%9B%E7%AF%87'},
+            {text:'科研篇',link:'/compass/%E7%A7%91%E7%A0%94%E7%AF%87'},
+            {text:'选课篇',link:'/compass/%E9%80%89%E8%AF%BE%E7%AF%87'},
+            {text:'社交恋爱篇',link:'/compass/%E7%A4%BE%E4%BA%A4%E6%81%8B%E7%88%B1%E7%AF%87'},
+            {text:'番外篇',link:'/compass/%E7%95%AA%E5%A4%96%E7%AF%87'},
+            {text:'专业指北',link:'/major/'}
           ]
         }
       ],
