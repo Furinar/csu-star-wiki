@@ -8,7 +8,7 @@
   },
   "scripts": {
     "dev": "vitepress dev docs",
-    "build": "git fetch --unshallow && vitepress build docs",
+    "build": "vitepress build docs",
     "preview": "vitepress preview docs"
   }
 }
