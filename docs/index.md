@@ -9,13 +9,13 @@ hero:
   actions:
     - theme: brand
       text: 什么是CSU Wiki?
-      link: /compass/
+      link: /introduction/
     - theme: alt
       text: 快速开始
-      link: /api-examples
+      link: /compass/
     - theme: alt
       text: 贡献成员
-      link: #
+      link: /introduction/team
   image: /csustar.svg
 
 features:
